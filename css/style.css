@@ -1,0 +1,25 @@
+body {
+	min-height: 100vh;
+	font-family: 'Lato', 'Roboto', Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.nav {
+	background-color: rgb(17, 35, 54);
+}
+
+.title {
+	font-family: 'Russo One' !important;
+	letter-spacing: 2px;
+}
+
+.footer {
+	background-color: rgb(223, 231, 239);
+}
+
+.tableRow {
+	background-color: rgb(17, 35, 54);
+}
+
+#table {
+	min-height: 500px;
+}
