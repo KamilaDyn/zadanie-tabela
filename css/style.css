@@ -32,7 +32,6 @@ input {
 @media only screen and (max-width: 560px),
 (min-device-width: 568px) and (max-device-width: 724px) {
 
-	/* Force table to not be like tables anymore */
 	table,
 	thead,
 	tbody,
@@ -46,7 +45,6 @@ input {
 		background-color: rgb(17, 35, 54);
 	}
 
-	/* Hide table headers (but not display: none;, for accessibility) */
 	thead tr {
 		position: absolute;
 		top: -9999px;
@@ -71,9 +69,7 @@ input {
 	}
 
 	td:before {
-		/* Now like a table header */
 		position: absolute;
-		/* Top/left values mimic padding */
 		top: 6px;
 		left: 6px;
 		width: 45%;
