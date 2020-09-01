@@ -13,13 +13,13 @@ $value .= '<table class="table table-hover"> <thead class="table-primary"><tr cl
 <th scope="col" class="text-white">Wiek</th>
 <th scope="col" class="text-white">Edytuj</th>
 </tr>
- </thead>';
+ </thead><tbody>';
 $query = "SELECT * FROM list ";
 $result = mysqli_query($con, $query);
 $data = array();
 
 while ($row = mysqli_fetch_assoc($result)) {
-    $value .= '<tbody><tr id="' . $row['id'] . '">
+    $value .= '<tr id="' . $row['id'] . '">
 <td scope="row" hidden>' . $row['id'] . '</td>
 <td data-target="first_name">' . $row['first_name'] . '</td>
 <td data-target="last_name">' . $row['last_name'] . '</td>
@@ -29,7 +29,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 <td data-target="age">' . $row['age'] . '</td>
 <td><div class="btn btn-info" id="btn_edit" data-id=' . $row['id'] . '>Edytuj</div></td>
 </tr>
-</tbody>';
+';
 }
-$value .= '</table>';
+$value .= '</tbody></table>';
 echo json_encode(['status' => 'success', 'html' => $value]);
