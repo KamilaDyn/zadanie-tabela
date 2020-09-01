@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<nav class="nav justify-content-start pt-1 pl-5">
+<nav class="nav justify-content-start pt-2 pl-5">
 	<h1 class="title text-white w-100 text-center pt-2">OKNA</h1>
 <ul class="nav nav-pills mb-4">
 			<li class="nav-item">

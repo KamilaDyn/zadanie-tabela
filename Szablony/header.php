@@ -16,7 +16,7 @@
   crossorigin="anonymous"></script>
 </head>
 <body class=" d-flex flex-column ">
-<nav class="nav justify-content-start pt-1 pl-5">
+<nav class="nav justify-content-start pt-2 pl-5">
 <h1 class="title text-white w-100 text-center pt-2">OKNA</h1>
 <ul class="nav nav-pills mb-4">
 

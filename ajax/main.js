@@ -29,7 +29,7 @@ function get_singleRecord() {
 
 		var ID = $(this).attr('data-id');
 
-		var url = `http://localhost/ekookna/user/${ID}`;
+		var url = `http://localhost/okna/user/${ID}`;
 
 		$(location).attr('href', url);
 

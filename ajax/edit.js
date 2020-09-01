@@ -103,7 +103,7 @@ function delete_record() {
             },
             success: function (data) {
                 $('#delete_message').html(data);
-                var url = `http://localhost/ekookna/`;
+                var url = `http://localhost/okna/`;
                 setTimeout(() => {
                     $(location).attr('href', url);
                 }, 1500);
