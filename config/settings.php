@@ -4,7 +4,7 @@
 $DBEngine = "mysql";
 $DBServer = "localhost";
 $DBUser = "root";
-$DBPass = "";
+$DBPass = "0606Kam";
 $DBName = "ekookna";
 $DBPort = "3306";
 

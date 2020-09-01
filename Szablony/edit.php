@@ -19,7 +19,7 @@
 
 <body>
 <nav class="nav justify-content-start pt-1 pl-5">
-	<h1 class="title text-white w-100 text-center pt-2">EKO-OKNA</h1>
+	<h1 class="title text-white w-100 text-center pt-2">OKNA</h1>
 <ul class="nav nav-pills mb-4">
 			<li class="nav-item">
 				<a class="nav-link active" href="http://localhost/okna/">Home</a>
