@@ -1,7 +1,14 @@
 # DEMO VIEW
 
 ## add new user
-![table](https://media.giphy.com/media/Jr4ieHNehIhthvzQBp/giphy.gif)
+![table](https://media.giphy.com/media/Jr4ieHNehIhthvzQBp/giphy.gif) 
+
+## edit user
+
+![table](https://media.giphy.com/media/dXvJ7xBGDE2lgbiJd5/giphy.gif) 
+
+## delete user
+![table](https://media.giphy.com/media/YnxADEaOwSuVzFEYAQ/giphy.gif)
 
 
 # PL
