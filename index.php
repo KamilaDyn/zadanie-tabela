@@ -1,7 +1,7 @@
 <?php
  $request = $_SERVER['REQUEST_URI'];
 
-$router =str_replace('/ekookna/','', $request);
+$router =str_replace('/okna/','', $request);
 $pattern = '/[0-9]$/';
 
 

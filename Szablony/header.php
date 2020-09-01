@@ -21,10 +21,10 @@
 <ul class="nav nav-pills mb-4">
 
   <li class="nav-item">
-    <a class="nav-link active" href="http://localhost/ekookna/">Home</a>
+    <a class="nav-link active" href="http://localhost/okna/">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="http://localhost/ekookna/user">Dodaj</a>
+    <a class="nav-link text-white" href="http://localhost/okna/user">Dodaj</a>
   </li>
 
 
