@@ -14,24 +14,28 @@
 <input type="text" id="id" class="form-control" style="display:none;">
 </div>
 <div class="form-group col-md-6">
-  <label for="id">Imię</label>
+  <label for="first_name">Imię</label>
 <input type="text" placeholder="imię"  class="form-control" id="first_name">
 </div>
 <div class="form-group col-md-6">
-  <label for="id">Nazwisko</label>
+  <label for="last_name">Nazwisko</label>
 <input id="last_name" type="text"  class="form-control" placeholder="nazwisko">
 </div>
 <div class="form-group col-md-6 ">
-  <label for="id">Nazwa ulicy</label>
+  <label for="street">Nazwa ulicy</label>
 <input id="street" type="text"  class="form-control" placeholder="ulica">
 </div>
 <div class="form-group col-md-6">
-  <label for="id">Kod pocztowy</label>
+  <label for="postal_code">Kod pocztowy</label>
 <input id="postal_code" type="text"  class="form-control" placeholder="kod pocztowy">
 </div>
 <div class="form-group col-md-6">
-  <label for="id">Miasto</label>
+  <label for="city">Miasto</label>
 <input id="city" type="text" class="form-control" placeholder="miasto">
+</div>
+<div class="form-group col-md-6">
+  <label for="age">Wiek</label>
+<input id="age" type="text" class="form-control" placeholder="wiek">
 </div>
 </div>
 <button type="button"  class="btn btn-info mb-3" id="btn_register">Zarejestruj</button>

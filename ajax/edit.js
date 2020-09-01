@@ -10,7 +10,7 @@ function getId() {
     var url = document.URL;
     var url_array = url.split('/');
     let last_segment = url_array[url_array.length - 1];
-    console.log(last_segment);
+
 
     $.ajax({
         url: '../get_single.php',

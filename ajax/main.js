@@ -14,7 +14,6 @@ function get_records() {
 		method: 'GET',
 		dataType: 'json',
 		success: function (data) {
-			console.log('works');
 			if (data.status == 'success') {
 				$('#table').html(data.html);
 			}
@@ -47,8 +46,9 @@ function insert_record() {
 		var city = $('#city').val();
 		var postal_code = $('#postal_code').val();
 		var street = $('#street').val();
+		var age = $('#age').val();
 
-		if (first_name == "" || last_name == "") {
+		if (first_name == "" || last_name == "" || street == "" || city == "" || postal_code == "") {
 			$('#message').html('Proszę uzupełnić wszystkie miejsca');
 		} else {
 			$.ajax({
@@ -59,7 +59,8 @@ function insert_record() {
 					Ulast_name: last_name,
 					Ucity: city,
 					Upostal_code: postal_code,
-					Ustreet: street
+					Ustreet: street,
+					Uage: age,
 				},
 				success: function (data) {
 					$('#message').html(data);

@@ -11,7 +11,7 @@ if($router== ""){
         include('Szablony/user.php');
 }else if( preg_match("/user\/[0-9]/", $router)){
 
- include('Szablony/single_user.php');
+ include('Szablony/edit.php');
 } else{
             include('Szablony/404.php');
         };

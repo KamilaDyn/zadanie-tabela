@@ -7,12 +7,13 @@ $last_name = $_POST['Ulast_name'];
 $street = $_POST['Ustreet'];
 $postal_code = $_POST['Upostal_code'];
 $city= $_POST['Ucity'];
+$age= $_POST['Uage'];
 
 $query = "insert into 
 list 
-(first_name, last_name, postal_code, street, city) 
+(first_name, last_name, postal_code, street, city, age) 
 values 
-('$first_name', '$last_name', '$postal_code', '$street', '$city') ";
+('$first_name', '$last_name', '$postal_code', '$street', '$city', '$age') ";
 $result= mysqli_query($con,$query);
 
 if($result){
